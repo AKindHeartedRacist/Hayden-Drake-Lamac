@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MY PORTFOLIO</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=IBM+Plex+Sans:wght@400;600&family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="myport" href="#home" data-nav>MY PORTFOLIO</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="menu">Menu</button>
+    <ul class="menu" id="menu">
+      <li><a href="#home" data-nav>Home</a></li>
+      <li><a href="#about" data-nav>About</a></li>
+      <li><a href="#contact" data-nav>Contact</a></li>
+      <li><a href="#others" data-nav>Others</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <section id="home">
+    <div class="wrap">
+      <div class="hero">
+        <div>
+          <h1><span>HAYDEN DRAKE</span><span>Z. LAMAC</span></h1>
+          <p class="role">Front-end developer &amp; Game Developer</p>
+          <p class="lede">Front-end and Game Developer who builds clean, responsive websites and fun, interactive games. Skilled in HTML, CSS, JavaScript, and game engines, with a focus on smooth user experience and creative problem-solving.</p>
+          <div class="cta">
+            <a class="btn" href="#about" data-nav>View resume</a>
+            <a class="btn ghost" href="#contact" data-nav>Get in touch</a>
+          </div>
+        </div>
+          <div class="portrait-wrap">
+            <img class="portrait" src="/imgs/pfp.jpg" alt="Photo of Hayden/me">
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <p class="kicker">Profile</p>
+      <h2 class="sec-title">About</h2>
+      <div class="resume">
+        <aside>
+          <div class="block">
+            <h3>Introduction</h3>
+            <p class="profile-text">I'm an IT student at CSTC Sariaya, learning programming and web development with Python, HTML, CSS, and JavaScript. I love building things that look great and work well. When I'm not coding, I'm playing FPS and RTS games, and I'm aiming to become a successful game developer.</p>
+              <ul class="plain-list" style="margin-top:18px">
+                <li><span>Age: 21</span></li>
+                <li><span>Gender: Male</span></li>
+                <li><span>Location: Lucena City, Quezon</span></li>
+              </ul>
+          </div>
+          <div class="block">
+            <h3>Skills</h3>
+            <ul class="chips">
+              <li>HTML / CSS</li>
+              <li>Front-End Developer</li>
+              <li>Backend-Developer</li>
+              <li>Game Development</li>
+              <li>Web Development</li>
+            </ul>
+          </div>
+          <div class="block">
+            <h3>Languages</h3>
+            <ul class="plain-list">
+              <li><span>Filipino</span><span>Native</span></li>
+              <li><span>English</span><span>Fluent</span></li>
+            </ul>
+          </div>
+        </aside>
+          <div class="block">
+            <h3>Education</h3>
+            <article class="entry">
+              <div class="when">2023 – 2026</div>
+              <div>
+                <h4>College - BS Information Technology</h4>
+                <p class="org">College Of Science, Technology and Communications Inc.</p>
+              </div>
+            </article>
+            <article class="entry">
+              <div class="when">2021 – 2023</div>
+              <div>
+                <h4>Senior High School</h4>
+                <p class="org">College Of Science, Technology and Communications Inc.</p>
+              </div>
+            </article>
+            <article class="entry">
+              <div class="when">2016 – 2021</div>
+              <div>
+                <h4>Junior High School</h4>
+                <p class="org">Gulang-Gulang National High School - Bocohan Extension</p>
+              </div>
+            </article>
+            <article class="entry">
+              <div class="when">2010 – 2016</div>
+              <div>
+                <h4>Primary School</h4>
+                <p class="org">Isabang Elementary School</p>
+              </div>
+            </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="strip">
+      <div class="wrap">
+        <p class="kicker">Contact me.</p>
+        <h2 class="sec-title">Let's talk</h2>
+        <p class="intro">Got a project in mind? Send a quick note with the details and your deadline.</p>
+        <ul class="contact-list">
+          <li><span class="label">Email</span><span class="value" id="c-email">zhaydendrake@gmail.com</span><button class="copy" data-copy="c-email" type="button">Copy</button></li>
+          <li><span class="label">Phone</span><span class="value" id="c-phone">09123456789</span><button class="copy" data-copy="c-phone" type="button">Copy</button></li>
+          <li><span class="label">Discord</span><span class="value" id="c-dc">https://discord.com/users/1153320192978452651</span><button class="copy" data-copy="c-dc" type="button">Copy</button></li>
+          <li><span class="label">Facebook</span><span class="value" id="c-fb">https://www.facebook.com/HayJoy.lamac</span><button class="copy" data-copy="c-fb" type="button">Copy</button></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+<section id="others">
+  <div class="wrap">
+    <p class="kicker">online</p>
+    <h2 class="sec-title">Hobbies</h2>
+    <div class="index">
+      <article class="file">
+        <div class="thumb"><img src="/imgs/lol.jpg" alt="League of Legends"></div>
+        <h4>League of Legends</h4>
+      </article>
+      <article class="file">
+        <div class="thumb"><img src="/imgs/bar.png" alt="Bar"></div>
+        <h4>Beyond All Reason</h4>
+      </article>
+      <article class="file">
+        <div class="thumb"><img src="/imgs/valo.png" alt="Valorant"></div>
+        <h4>Valorant</h4>
+      </article>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <span>&copy; 2026 Hayden Drake Z. Lamac. All rights reserved (Meiyoo)</span>
+      <nav aria-label="Footer">
+        <a href="#home" data-nav>Home</a>
+        <a href="#about" data-nav>About</a>
+        <a href="#contact" data-nav>Contact</a>
+        <a href="#others" data-nav>Others</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
